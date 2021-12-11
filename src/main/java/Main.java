@@ -19,7 +19,6 @@ public class Main {
 	    MatrixCustom matrix = container.select(MatrixCustom.class).get();
 		matrix.setMatrix(mat);
 
-	    System.out.println("Calculation result");
-	    System.out.println(matrix.getRank());
+	    System.out.printf("Calculation result : %d\n", matrix.getRank());
     }
 }
